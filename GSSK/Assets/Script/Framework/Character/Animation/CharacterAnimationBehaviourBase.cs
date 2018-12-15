@@ -32,5 +32,10 @@ namespace Framework
 
             _animator.SetBool("attack", Input.GetKey("a"));
         }
+
+        public void Hit()        // ヒット時のアニメーションイベント（今のところからっぽ。ないとエラーが出る）
+        {
+
+        }
     }
 }
